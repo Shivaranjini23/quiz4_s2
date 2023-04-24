@@ -1,0 +1,32 @@
+GET http://localhost:2000/bye
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IlNoaXZhcmFuamluaSIsInBhc3N3b3JkIjoiMTIzNDU2IiwibmFtZSI6IlNoaXZhcmFuamluaSIsImVtYWlsIjoicmFuamluaTM0MDBAZ21haWwuY29tIiwiaWF0IjoxNjgxMzcxOTg5LCJleHAiOjE2ODEzNzIwNDl9.C_RFb-mq5dpJNdflJBhMmRgcxkXAOcNGe_eHBYfVZdE
+###
+
+GET http://localhost:3000/FKEKK
+
+###
+
+GET http://localhost:3000/UTeM
+
+###
+
+POST http://localhost:2000/login
+Content-Type: application/json
+
+{
+    "username": "Shivaranjini",
+    "password": "123456"
+}
+
+###
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    
+    "username": "Shivaranjini",
+    "password": "123456",
+    "name": "Shivaranjini",
+    "email": "ranjini3400@gmail.com"
+
+}
